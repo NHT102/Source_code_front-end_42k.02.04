@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân quyền</title>
+    <link rel="stylesheet" href="./assets/fonts/font icon/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="./assets/img/coffee-logo2.png" type="img">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/PQ.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header_item">
+                    <a href="./home.html">
+                        <h1 class="header_logo">Ciano <br> coffee & tea</h1>
+                    </a>
+
+                    <div class="header_right">
+                        <div class="header_icon">
+                            <input type="text" class="header_input"  placeholder="Tìm kiếm...">
+                        </div>
+
+                        <div class="header_hover-notify">
+                            <div class="header_icon">
+                                <i class="header_icon--bell fa-solid fa-bell"></i>
+                            </div>
+                                <div class="header_notify">
+                                    <div class="header_notify_img"></div>
+                                    <p class="header_notify-caption">Không có thông báo!</p>
+                                </div>
+
+                        </div>
+
+                        <div class="header_hover-account">
+                            <div class="header_icon">
+                                <i class="header_icon--user fa-solid fa-user"></i>
+                            </div>
+                                <ul class="header_account">
+                                    <li class="header_account-item">Tài khoản </li>
+                                    <li class="header_account-item">Đổi mật khẩu</li>
+                                    <li class="header_account-item">Đăng xuất</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+    
+        <!-- container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2">
+                        <!-- Navigation -->
+                        <nav class="nav">
+                            <div class="nav_icon">
+                                <i class="nav_icon-home fa-solid fa-house"></i>
+                            </div>
+
+                            <div class="nav_header">
+                                <h2>Màn hình chính</h2>
+                            </div>
+
+                            <div class="nav_line"></div>
+
+                            <ul class="nav_list">
+                                <li class="nav_list-item">
+                                    <a href="./Order.html">Gọi order</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./QLB.html">Quản lý bàn</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./TT.html">Tính tiền</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./QLTK.html" class="active">Quản lý tài khoản</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./TKDT.html">Thống kê doanh thu</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./TKMHBC.html">Thống kê MHBC</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./LPNH.html">Lập phiếu nhập hàng</a>
+                                </li>
+                            </ul>
+
+                            <div class="nav_line"></div>
+
+                            <ul class="nav_footer">
+                                <li class="nav_footer-item">
+                                    <i class="nav_icon_wheel fa-solid fa-gear"></i>
+                                    Cài đặt
+                                </li>
+                                <li class="nav_footer-item">
+                                    <i class="nav_icon_help fa-regular fa-circle-question"></i>
+                                    Trợ giúp
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="col l-10">
+                        <!-- Phần mọi người code phần html ở đây -->
+                        <h1> Quản lý tài khoản </h1>
+
+                        <div class="button">
+                            <a href="./TTK.html" class="btn_QLTK">
+                                <button class="btn btn_Worker  button1"><i class="icon_trang fa-solid fa-user-group"></i> Tạo mới</button>
+                            </a>
+                            <a href="./PQ.html" class="btn_QLTK">
+                                <button class="btn btn_Worker active button2"><i class="icon_trang fa-solid fa-user-check"></i>Phân Quyền</button>
+                            </a>
+                            <a href="./XTK.html" class="btn_QLTK">
+                                <button class="btn btn_Worker button3"><i class="icon_trang fa-solid fa-user-slash"></i> Xóa tài khoản</button>
+                            </a>
+                        </div>
+                        <div class="hi">
+                            <div class=" INFORMATION">
+                                <div class="information">
+                                    <p>Mã nhân viên (*)</p> 
+                                    <div class="box"></div>
+                                </div>
+                                <div class="information1">
+                                    <p>Tên nhân viên  (*)</p> 
+                                    <div class="box1"></div>
+                                </div>
+                                <div class="information1">
+                                    <p> Giới tính (*)</p> 
+                                    <div class="box2">
+                                        <i class=" TTK_icon fa-solid fa-sort"></i>
+                                    </div>
+                                    <p1> Ngày sinh </p1>
+                                    <div class="box2">
+                                        <i class=" TTK_icon fa-solid fa-calendar-days"></i>
+                                    </div>
+                                </div>
+                                <div class="information2">
+                                    <p> Số CMND (*)</p> 
+                                    <div class="box3">
+                                    </div>
+                                    <p1> Ngày cấp</p1>
+                                    <div class="box3"></div>
+                                </div>
+                                <div class="information2">
+                                    <p> Chức vụ (*)</p> 
+                                    <div class="box6"> 
+                                        <i class="fa-solid fa-o"></i> 
+                                        <span>Quản lý </span></div>
+                                    <div class="box6">
+                                        <i class="fa-solid fa-o"></i> <span>Nhân viên</span></div>
+                                    <div class="box6"> <i class="fa-solid fa-o"></i> <span>Khác</span></div>
+                                </div>
+                                <div class="information1">
+                                    <p>Ca đăng nhập (*)</p> 
+                                    <div class="box4"></div>
+                                </div>
+                            </div>
+                            <div class="avt"> 
+                                <img src="./assets/img/316831587_880563813140729_5371891353946998373_n.png" >
+                                <div class="Group">
+                                <div class=" save">
+                                    <i class="fa-solid fa-floppy-disk"></i> <span> Lưu</span>
+                                </div>
+                                <div class=" close">
+                                    <i class="fa-solid fa-circle-xmark"></i> <span>Hủy</span>
+                                   
+                                </div>
+                                <div class=" help">
+                                    <i class="fa-solid fa-circle-question"></i> <span>Trợ giúp</span>
+   
+                                </div>
+                                </div>
+                            </div>
+                        <div class="content">
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+    
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Giới thiệu
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Về chúng tôi</li>
+                            <li class="footer_list-item">Sản phẩm</li>
+                            <li class="footer_list-item">Khuyến mãi</li>
+                            <li class="footer_list-item">Tuyển dụng</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Điều khoản sử dụng
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Điều khoản sử dụng</li>
+                            <li class="footer_list-item">Chính sách bảo mật thông tin</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Liên hệ
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Địa chỉ: 247B Chương Dương, Mỹ An, Ngũ Hành Sơn, Đà Nẵng</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Chính sách
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Chính sách vận chuyển</li>
+                            <li class="footer_list-item">Chính sách bảo mật</li>
+                            <li class="footer_list-item">Quy chế hoạt động</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <p class="footer_caption">
+                    Chịu Trách Nhiệm Quản Lý Nội Dung: Team 46k.02.04 - Điện thoại liên hệ: 0346 588 440 <br> © 2022 - Học phần: Phân tích và thiết kế hệ thống thông tin.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    
+</body>
+</html>

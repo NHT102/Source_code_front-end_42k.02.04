@@ -1,0 +1,139 @@
+.headerHome{
+    background-color: var(--white-color);
+    height: var(--height-header);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header_logoHome{
+    color: var(--black-color);
+    font-family: 'Montaga', serif;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    line-height: 4rem;
+    font-size: 4rem ;
+}
+
+.header_iconHome{
+    font-size: 2.5rem;
+    color: var(--background-color) ;
+    padding: 0 8px;
+}
+
+
+.header_Login_Home{
+    font-size: 1.6rem;
+    margin-right: 8px;
+}
+
+.header_main-img{
+    width: 100%;
+}
+
+.header_right button{
+    border: none;
+    background: var(--white-color);
+    display: flex;
+    align-items: center;
+}
+
+/* login */
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.login{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1);
+    z-index: 100;
+    width: 800px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.);
+    border-radius: 20px;
+    font-size: 1.6rem;
+    text-align: center;
+    
+}
+
+.login_close{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    
+}
+
+.login_close i{
+    padding: 20px 20px 0 0  ;
+    font-size: 3rem;
+}
+
+.login_header{
+    font-size: 3rem;
+}
+
+.login_item{
+}
+
+.login_caption{
+    margin: 30px 292px 10px 0;
+}
+
+.link_login{
+    display: block;
+}
+.login_caption-un{
+    margin: 30px 267px 10px 0;
+}
+
+.btn_login,
+.login_input{
+    width: 400px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background: #FFF9F9;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+.btn_login{
+    margin-top: 30px;
+    background-color: var(--background-color);
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.btn_login:hover{
+    background-color: var(--black-color) ;
+}
+
+.login_forget{
+    font-size: 1.4rem;
+    margin-left: 270px;
+}
+#eye{
+    background-image: url(/assets/img/icon_eye.svg); 
+    background-size: 30px;
+    background-repeat: no-repeat; 
+    background-position: 340px; 
+}

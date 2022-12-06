@@ -1,0 +1,67 @@
+/* Mọi người css phần content vào đây */
+/* content */
+h1 {
+    font-size: 3rem;
+    margin-top: 70px ;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nav_list{
+    height: 700px;
+    padding-left: 20px;
+}
+
+table {
+    margin-left: 37px;
+    border: none;
+}
+table tr th{
+    color: white;
+    size: 20px;
+    height: 50px;
+    border: none;
+}
+table tr td{
+    border: none;
+    height: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+.time-sheet{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 37px;
+    align-items: center;
+    background: #C4C4C4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.time-sheet button{
+    height: 60px;
+    border: none;
+    background: #F5F5F5;
+    border-radius: 2px;
+}
+
+.date_time_item{
+    display: flex;
+    align-items: center;
+}
+
+.date_from{
+    margin: 0 20px;
+}
+
+.date_from_btn{
+    width: 170px;
+    border-radius: 20px;
+}
+.LPNH_caption{
+    margin: 15px 0 20px 37px;
+}

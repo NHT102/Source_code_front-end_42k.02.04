@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./assets/fonts/font icon/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="./assets/img/coffee-logo2.png" type="img">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+</head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="headerHome">
+            <div class="grid wide">
+                <div class="header_item">
+                    <a href="#">
+                        <h1 class="header_logoHome">Ciano <br> coffee & tea</h1>
+                    </a>
+                    <div class="header_right">
+                        <button class="js-login">
+                            <p class="header_Login_Home">Đăng nhập</p>
+                            <div class="header_iconHome">
+                                <i class="fa-solid fa-user-lock"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+    
+        <!-- container -->
+        <div class="container">
+            <div class="grid">
+                <img src="./assets/img/main_img.png" alt="" class="header_main-img">
+            </div>
+            <!-- button worker and manager -->
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3"></div>
+                    <div class="col l-3">
+                        <!-- <a href="#" class="btn_link" title="Vui lòng đăng nhập!"> -->
+                            <button class="btn" title="Vui lòng đăng nhập!">
+                                <div class="btn_Worker">
+                                    <div class="btn_icon">
+                                        <i class="fa-solid fa-display"></i>
+                                    </div>
+                                    <div class="btn_caption">
+                                        <p>Dành cho Nhân viên</p>
+                                    </div>
+                                </div>
+                            </button>
+                        <!-- </a> -->
+                    </div>
+                    <div class="col l-3">
+                        <!-- <a href="#" class="btn_link" title="Vui lòng đăng nhập!"> -->
+                            <button class="btn" title="Vui lòng đăng nhập!">
+                                <div class="btn_Worker">
+                                    <div class="btn_icon">
+                                        <i class="fa-solid fa-display"></i>
+                                    </div>
+                                    <div class="btn_caption">
+                                        <p>Dành cho Quản lý</p>
+                                    </div>
+                                </div>
+                            </button>
+                        <!-- </a> -->
+                    </div>
+                    <div class="col l-3"></div>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+    
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Giới thiệu
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Về chúng tôi</li>
+                            <li class="footer_list-item">Sản phẩm</li>
+                            <li class="footer_list-item">Khuyến mãi</li>
+                            <li class="footer_list-item">Tuyển dụng</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Điều khoản sử dụng
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Điều khoản sử dụng</li>
+                            <li class="footer_list-item">Chính sách bảo mật thông tin</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Liên hệ
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Địa chỉ: 247B Chương Dương, Mỹ An, Ngũ Hành Sơn, Đà Nẵng</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Chính sách
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Chính sách vận chuyển</li>
+                            <li class="footer_list-item">Chính sách bảo mật</li>
+                            <li class="footer_list-item">Quy chế hoạt động</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <p class="footer_caption">
+                    Chịu Trách Nhiệm Quản Lý Nội Dung: Team 46k.02.04 - Điện thoại liên hệ: 0346 588 440 <br> © 2022 - Học phần: Phân tích và thiết kế hệ thống thông tin.
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Modal login -->
+    <div class="grid wide">
+        <div class="modal ">
+            <div class="login">
+                <div class="login_close">
+                    <i class="js-login-close fa-solid fa-xmark"></i>
+                </div>
+                <div class="login_header">ĐĂNG NHẬP</div>
+                <div class="login_item">
+                    <label for="username" class="login_label">
+                        <div class="login_caption login_caption-un">Tên đăng nhập:</div>
+                    </label>
+                    <input id="username" type="text" class="login_input"   required placeholder="User name">
+                </div>
+                <div class="login_item">
+                    <label for="eye" class="login_label"></label>
+                        <div class="login_caption">Mật khẩu:</div>
+                    </label>
+                    <input id="eye" type="password" class="login_input"  required placeholder="Password">
+                </div>
+                <a href="./home.html" class="link_login">
+                    <button class="btn_login">ĐĂNG NHẬP</button>
+                </a>
+                <p class="login_forget">Quên mật khẩu?</p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        //login
+        const getBtn = document.querySelector('.js-login');
+        const modal = document.querySelector('.modal');
+        const removeLogin = document.querySelector('.js-login-close');
+
+        function showLogin (){
+            modal.classList.add('open')
+        }
+
+        function hideLogin(){
+            modal.classList.remove('open')
+        }
+
+        getBtn.addEventListener('click', showLogin)
+        removeLogin.addEventListener('click',hideLogin)
+
+    </script>
+</body>
+</html>

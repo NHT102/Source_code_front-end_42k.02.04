@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xóa tài khoản</title>
+    <link rel="stylesheet" href="./assets/fonts/font icon/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="icon" href="./assets/img/coffee-logo2.png" type="img">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/XTK.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+</head>
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header_item">
+                    <a href="./home.html">
+                        <h1 class="header_logo">Ciano <br> coffee & tea</h1>
+                    </a>
+
+                    <div class="header_right">
+                        <div class="header_icon">
+                            <input type="text" class="header_input"  placeholder="Tìm kiếm...">
+                        </div>
+
+                        <div class="header_hover-notify">
+                            <div class="header_icon">
+                                <i class="header_icon--bell fa-solid fa-bell"></i>
+                            </div>
+                                <div class="header_notify">
+                                    <div class="header_notify_img"></div>
+                                    <p class="header_notify-caption">Không có thông báo!</p>
+                                </div>
+
+                        </div>
+
+                        <div class="header_hover-account">
+                            <div class="header_icon">
+                                <i class="header_icon--user fa-solid fa-user"></i>
+                            </div>
+                                <ul class="header_account">
+                                    <li class="header_account-item">Tài khoản </li>
+                                    <li class="header_account-item">Đổi mật khẩu</li>
+                                    <li class="header_account-item">Đăng xuất</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <!-- container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-2">
+                        <!-- Navigation -->
+                        <nav class="nav">
+                            <div class="nav_icon">
+                                <i class="nav_icon-home fa-solid fa-house"></i>
+                            </div>
+
+                            <div class="nav_header">
+                                <h2>Màn hình chính</h2>
+                            </div>
+
+                            <div class="nav_line"></div>
+
+                            <ul class="nav_list">
+                                <li class="nav_list-item">
+                                    <a href="./Order.html">Gọi order</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./QLB.html">Quản lý bàn</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./TT.html">Tính tiền</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./QLTK.html" class="active">Quản lý tài khoản</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./TKDT.html">Thống kê doanh thu</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./TKMHBC.html">Thống kê MHBC</a>
+                                </li>
+                                <li class="nav_list-item">
+                                    <a href="./LPNH.html">Lập phiếu mua hàng</a>
+                                </li>
+                            </ul>
+
+                            <div class="nav_line"></div>
+
+                            <ul class="nav_footer">
+                                <li class="nav_footer-item">
+                                    <i class="nav_icon_wheel fa-solid fa-gear"></i>
+                                    Cài đặt
+                                </li>
+                                <li class="nav_footer-item">
+                                    <i class="nav_icon_help fa-regular fa-circle-question"></i>
+                                    Trợ giúp
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <div class="col l-10">
+                        <!-- Phần mọi người code phần html ở đây -->
+                        <h1> Quản lý tài khoản </h1>
+                        <div class="button">
+                            <a href="./TTK.html" class="btn_QLTK">
+                                <button class="btn btn_Worker button1"><i class="icon_trang fa-solid fa-user-group"></i> Tạo mới</button>
+                            </a>
+                            <a href="./PQ.html" class="btn_QLTK">
+                                <button class="btn btn_Worker button2"><i class="icon_trang fa-solid fa-user-check"></i>Phân Quyền</button>
+                            </a>
+                            <a href="#" class="btn_QLTK">
+                                <button class="btn btn_Worker active button3"><i class="icon_trang fa-solid fa-user-slash"></i> Xóa tài khoản</button>
+                            </a>
+                        </div>
+                        <table border="1" cellpadding="14">
+                            <tr bgcolor="#333333">
+                               <th width="150px">Mã nhân viên</th>
+                               <th width="185px">Tên đăng nhập</th>
+                               <th width="210px">Tên nhân viên</th>
+                               <th width="170px">Ngày sinh</th>
+                               <th width="115px">Giới tính</th>
+                               <th width="100px">Xóa</th>
+                            </tr>
+                            <tr >
+                               <td>001</td>
+                               <td>vantai</td>
+                               <td>Phan Văn Tài</td>
+                               <td>03/10/2001</td>
+                               <td>Nam</td>
+                               <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr bgcolor="#C4C4C4";
+                            >
+                                <td>002</td>
+                               <td>vansang</td>
+                               <td>Nguyễn Văn Sang</td>
+                               <td>05/08/1999</td>
+                               <td>Nam</td>
+                               <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>003</td>
+                                <td>vanem</td>
+                                <td>Ngô Văn Em</td>
+                                <td>09/11/2001</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr bgcolor="#C4C4C4">
+                                <td>004</td>
+                                <td>vanthe</td>
+                                <td>Trần Văn Thế</td>
+                                <td>19/06/2001</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>005</td>
+                                <td>quangminh</td>
+                                <td>Nguyễn Quang Minh</td>
+                                <td>20/10/2002</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr bgcolor="#C4C4C4">
+                                <td>006</td>
+                                <td>xuanminh</td>
+                                <td>Nguyễn Xuân Minh</td>
+                                <td>18/09/2003</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>007</td>
+                                <td>quockhanh</td>
+                                <td>Lê Quốc Khánh</td>
+                                <td>27/04/2002</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr bgcolor="#C4C4C4">
+                                <td>008</td>
+                                <td>xuanbach</td>
+                                <td>Lê Xuân Bách</td>
+                                <td>06/12/1999</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                            <tr>
+                                <td>009</td>
+                                <td>tiendat</td>
+                                <td>Nguyễn Tiến Đạt</td>
+                                <td>07/01/2003</td>
+                                <td>Nam</td>
+                                <td><i class="icon_delete js-icon-delete fa-solid fa-trash"></i></td>
+                            </tr>
+                         </table>
+                        <div class="content">
+
+
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+    
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="row">
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Giới thiệu
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Về chúng tôi</li>
+                            <li class="footer_list-item">Sản phẩm</li>
+                            <li class="footer_list-item">Khuyến mãi</li>
+                            <li class="footer_list-item">Tuyển dụng</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Điều khoản sử dụng
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Điều khoản sử dụng</li>
+                            <li class="footer_list-item">Chính sách bảo mật thông tin</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Liên hệ
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Địa chỉ: 247B Chương Dương, Mỹ An, Ngũ Hành Sơn, Đà Nẵng</li>
+                        </ul>
+                    </div>
+                    <div class="col l-3">
+                        <h4 class="footer_heading">
+                            Chính sách
+                        </h4>
+                        <ul class="footer_list">
+                            <li class="footer_list-item">Chính sách vận chuyển</li>
+                            <li class="footer_list-item">Chính sách bảo mật</li>
+                            <li class="footer_list-item">Quy chế hoạt động</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <p class="footer_caption">
+                    Chịu Trách Nhiệm Quản Lý Nội Dung: Team 46k.02.04 - Điện thoại liên hệ: 0346 588 440 <br> © 2022 - Học phần: Phân tích và thiết kế hệ thống thông tin.
+                </p>
+            </div>
+        </footer>
+
+        <div class="XTK_modal">
+            <div class="XTK">
+                <h1 class="XTK_header">Xác nhận xóa</h1>
+                <p class="XTK_caption">Việc xóa tài khoản sẽ xóa tất cả dữ liệu khỏi thiết bị. Tiếp tục ?</p>
+                <div class="XTK_btn">
+                    <button class="js-XTK-close  XTK_exit">Thoát</button>
+                    <button class="XTK_enter">Xóa</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const getBtns = document.querySelectorAll('.js-icon-delete');
+            const modal = document.querySelector('.XTK_modal');
+            const modalClose = document.querySelector('.js-XTK-close');
+    
+            function showModal (){
+                modal.classList.add('XTK_open')
+            }
+    
+            function hideModal(){
+                modal.classList.remove('XTK_open')
+            }
+
+            for(const getBtn of getBtns){
+                getBtn.addEventListener('click',showModal);
+            }
+    
+            modalClose.addEventListener('click',hideModal);
+        </script>
+        
+
+    </div>
+    
+</body>
+</html>

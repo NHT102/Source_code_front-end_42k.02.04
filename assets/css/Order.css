@@ -1,0 +1,137 @@
+img, p, span {
+    display: block;
+}
+
+.nav_list{
+    height: 900px;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.content__main {
+    display: flex;
+}
+
+.content__menu {
+    margin-top: 92px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.content__menu-item {
+    padding: 20px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.content__menu-item--active {
+    border-bottom: 6px solid #555555;
+}
+
+.content__menu-item + .content__menu-item {
+    margin-left: 30px;
+}
+
+.content__main {
+    margin-top: 17px;
+}
+
+.content__main-search {
+    max-width: 431.36px;
+    background: #F5F5F5;
+    border-radius: 25px;
+    margin-left: 44px;
+    border: 2px solid #662C2100;
+}
+
+.content__main-search input {
+    outline: none;
+    border: none;
+    padding: 20px 40px;
+}
+
+.content__food-list {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:  auto auto ;
+    grid-column-gap: 36px;
+    grid-row-gap: 14px;
+}
+
+.content__food-item img {
+    width: 197px;
+    height: 190px;
+}
+
+.content__food-item p {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.order__list {
+    max-width: 420px;
+    margin-top: 20px;
+    margin-left: 36px;
+}
+
+.order__table-item {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+thead {
+    background-color: #230C05;
+    height: 60px;
+}
+
+th {
+    color: #fff;
+}
+
+th,td {
+    width: 180px;
+    line-height: 60px;
+}
+
+td  {
+    padding-top: 30px;
+    transform: translate(65px, -10px);
+}
+
+.order__table-item-2, .order__table-item-4, .order__table-item-6 {
+    background-color: #C4C4C4;
+}
+
+.content__order-add {
+    margin-left: 36px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add-food {
+    margin-top: 30px;
+    display: flex;
+}
+
+.add-food p {
+    margin-left: 20px;
+}
+
+.content__order-add > img {
+    margin-left: 20px;
+    transform: translateY(10px)
+}
